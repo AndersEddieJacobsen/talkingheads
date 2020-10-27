@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap" rel="stylesheet">
+    <title>Talking heads</title>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Talking|Heads</h1>
+</div>
+
+<!-- meny -->
+<div class="row">
+
+    <div class="col-4"></div>
+    <div class="meny" id="navbar">
+
+        <a class="col-1" href="default.asp">Heffe</a>
+
+        <a class="col-1" href="default.asp">Heffe</a>
+
+        <a class="col-1" href="default.asp">Heffe</a>
+
+        <a class="col-1" href="default.asp">Heffe</a>
+
+    <a href="javascript:void(0);" class="ikon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+
+    <div class="col-4"></div>
+    </div>
+</div>
+
+<!-- Mobilmeny inspirasjon fra: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+        <script>
+            function myFunction() {
+                var x = document.getElementById("navbar");
+                if (x.className === "meny") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "meny";
+                }
+            }
+        </script>
+
+
+<div class="row">
+    <div class="col-3"></div>
+    <div class="col-6 main">
+        <p>Test test</p>
+        <img class="col-6" id="mobil" src="bilder/band.jpg" alt="Picture of a band" >
+    </div>
+    <div class="col-3">
+
+    </div>
+</div>
+
+</body>
+</html>
