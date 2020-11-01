@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a11ca839a6.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap" rel="stylesheet">
+    <title>Talking heads</title>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Talking|Heads</h1>
+</div>
+
+<!-- meny -->
+<div class="row meny" id="navbar">
+
+    <div class="col-3"></div>
+
+    <a class="col-2" href="index.html">Home</a>
+
+    <a class="col-2" href="disco.html">Discography</a>
+
+    <a class="col-2" href="about.html">About</a>
+
+
+    <a href="javascript:void(0);" aria-label="Mobile meny" class="ikon" onclick="myFunction()">
+        <i aria-hidden="true" class="fa fa-bars"> Meny</i>
+    </a>
+
+    <div class="col-3"></div>
+
+</div>
+
+
+
+<!-- Mobilmeny inspirasjon fra: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+<script>
+    function myFunction() {
+        var x = document.getElementById("navbar");
+        if (x.className === "meny") {
+            x.className += " responsive";
+        } else {
+            x.className = "meny";
+        }
+    }
+</script>
+
+
+<div class="row">
+    <div class="col-3"></div>
+    <div class="col-6 about">
+        <h1>About</h1>
+        <p>This page was made as a part of the Web development course
+        at OsloMet in 2020. The project is divided into three parts:<br><br>
+        1. Choose a band from Rolling Stone top 100<br>
+        2. Make a website that presents the band you chose<br>
+        2. Make shure the website is easy to navigate, accsessible and
+        it is screen reader friendly.</p>
+        <h1>Contact</h1>
+        <p>Anders Eddie Jacobsen
+        <br> s351875
+        <br>s351875@oslomet.no</p>
+    </div>
+    <div class="col-3">
+</html>

@@ -4,11 +4,17 @@
 }
 
 html {
-    font-family: Oswald, sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 body {
     margin: 0px;
+}
+
+p {
+    font-size: 21px;
+    margin-left: 5%;
+    margin-right: 8%;
 }
 
 /* Grid view. Source https://www.w3schools.com/css/css_rwd_grid.asp */
@@ -19,42 +25,18 @@ body {
 }
 
 /* grids */
-.col-1 {
-    width: 8.33%;
-}
-.col-2 {
-    width: 16.66%;
-}
-.col-3 {
-    width: 25%;
-}
-.col-4 {
-    width: 33.33%;
-}
-.col-5 {
-    width: 41.66%;
-}
-.col-6 {
-    width: 50%;
-}
-.col-7 {
-    width: 58.33%;
-}
-.col-8 {
-    width: 66.66%;
-}
-.col-9 {
-    width: 75%;
-}
-.col-10 {
-    width: 83.33%;
-}
-.col-11 {
-    width: 91.66%;
-}
-.col-12 {
-    width: 100%;
-}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
 /* Tablet */
 @media only screen and (max-width: 768px) {
@@ -63,7 +45,8 @@ body {
         width: 100%;
     }
     #mobil{
-        width: 240px;
+        border-top: 0px solid black;
+        border-bottom: 0px solid black;
     }
     .header h1 {
         font-size: 21px;
@@ -94,8 +77,12 @@ body {
         display: block;
         text-align: left;
     }
+    p {
+        margin: 5%;
+    }
 
 }
+
 /*klarerer flyten*/
 .row::after {
     content: "";
@@ -110,8 +97,9 @@ body {
     margin: 0px;
 }
 .header {
-    font-size: 21px;
-    font-family: 'Open Sans', sans-serif;
+    margin-top: 35px;
+    font-size: 44px;
+    font-family: "Calibri Light";
 }
 
 /* meny*/
@@ -135,7 +123,13 @@ body {
     color: white;
     display: inline;
     background-color: black;
-    padding: 2px;
+
+}
+
+div.meny {
+    margin-bottom: 1%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 /*main innhold*/
@@ -149,6 +143,20 @@ body {
 
 /*bilder*/
 img.col-6 {
-    width: 400px;
+    width: 100%;
+    float: left;
+}
+
+#image {
+    font-size: 16px;
+}
+
+/*Discographyside*/
+.disco th {
+    background-color: gainsboro;
+
+}
+.disco {
+    font-size: 20px;
 }
 

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a11ca839a6.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap" rel="stylesheet">
+    <title>Talking heads</title>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Talking|Heads</h1>
+</div>
+
+<!-- meny -->
+<div class="row meny" id="navbar">
+
+    <div class="col-3"></div>
+
+    <a class="col-2" href="index.html">Home</a>
+
+    <a class="col-2" href="disco.html">Discography</a>
+
+    <a class="col-2" href="about.html">About</a>
+
+
+    <a href="javascript:void(0);" aria-label="Mobile meny" class="ikon" onclick="myFunction()">
+        <i aria-hidden="true" class="fa fa-bars"> Meny</i>
+    </a>
+
+    <div class="col-3"></div>
+
+</div>
+
+
+
+<!-- Mobilmeny inspirasjon fra: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+<script>
+    function myFunction() {
+        var x = document.getElementById("navbar");
+        if (x.className === "meny") {
+            x.className += " responsive";
+        } else {
+            x.className = "meny";
+        }
+    }
+</script>
+
+
+<div class="row">
+    <div class="col-3"></div>
+    <div class="col-6 disco">
+        <h1>Discography</h1>
+        <table class="disco" style="width: 100%">
+            <tr>
+                <th>Album</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+            <td>Talking Heads: 77</td>
+                <td>1977</td>
+            </tr>
+            <tr>
+            <td>More Songs About Buildings and Food</td>
+                <td>1978</td>
+            </tr>
+            <tr>
+            <td>Fear of Music</td>
+                <td>1979</td>
+            </tr>
+            <tr>
+            <td>Remain in Light</td>
+                <td>1980</td>
+            </tr>
+            <tr>
+            <td>Speaking in Tongues</td>
+                <td>1983</td>
+            </tr>
+            <tr>
+            <td>Little Creatures</td>
+                <td>1985</td>
+            </tr>
+            <tr>
+            <td>True Stories</td>
+                <td>1986</td>
+            </tr>
+            <tr>
+            <td>Naked</td>
+                <td>1988</td>
+            </tr>
+        </table>
+    </div>
+    <div class="col-3">
+ </html>

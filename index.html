@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a11ca839a6.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap" rel="stylesheet">
     <title>Talking heads</title>
@@ -17,26 +18,28 @@
 </div>
 
 <!-- meny -->
-<div class="row">
+<div class="row meny" id="navbar">
 
-    <div class="col-4"></div>
-    <div class="meny" id="navbar">
+    <div class="col-3"></div>
 
-        <a class="col-1" href="default.asp">Heffe</a>
+        <a class="col-2" href="index.html">Home</a>
 
-        <a class="col-1" href="default.asp">Heffe</a>
+    <a class="col-2" href="disco.html">Discography</a>
 
-        <a class="col-1" href="default.asp">Heffe</a>
 
-        <a class="col-1" href="default.asp">Heffe</a>
+        <a class="col-2" href="about.html">About</a>
 
-    <a href="javascript:void(0);" class="ikon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
+
+
+    <a href="javascript:void(0);" aria-label="Mobile meny" class="ikon" onclick="myFunction()">
+        <i aria-hidden="true" class="fa fa-bars"> Meny</i>
     </a>
 
-    <div class="col-4"></div>
-    </div>
+    <div class="col-3"></div>
+
 </div>
+
+
 
 <!-- Mobilmeny inspirasjon fra: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
         <script>
@@ -54,8 +57,17 @@
 <div class="row">
     <div class="col-3"></div>
     <div class="col-6 main">
-        <p>Test test</p>
-        <img class="col-6" id="mobil" src="bilder/band.jpg" alt="Picture of a band" >
+        <p>Talking Heads was an american rock group from New York.
+            They played a mix of punk, art-rock, world music and funk. Hailed as one of the most popular bands of the 80s, they
+        influenced the music scene in New York a great deal.</p>
+        <p>Talking Heads was formed in 1975 and was active until 1991. The band consisted of
+        David Byrne (vocals), Chris Frantz (drums), Tina Weymouth (bass) and Jerry Harrison
+        (keybord, guitar). Talking Heads became a member of Rock 'n Roll Hall of fame in 2002.</p>
+        <img class="col-6" id="mobil" src="bilder/bandcrop.jpg" alt="Picture of a band" >
+        <p id="image">Picture of a band playing live. CC unsplash.com</p>
+        <p>They're biggest hits is Take me to the River, Burning Down the House, Road To Nowhere
+        and Once In a Lifetime. After Talking Heads Harrinson and Byrne went solo and Frantz and
+        Franz and Weymoth formed Tom Tom Club.</p>
     </div>
     <div class="col-3">
 
