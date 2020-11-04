@@ -16,6 +16,7 @@ p {
     font-size: 21px;
     margin-left: 5%;
     margin-right: 8%;
+    margin-bottom: 30px;
 }
 
 /* Grid view. Source https://www.w3schools.com/css/css_rwd_grid.asp */
@@ -52,6 +53,7 @@ p {
     .header h1 {
         font-size: 60px;
     }
+
 }
 
 
